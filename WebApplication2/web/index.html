@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Ticket Booking</title>
+</head>
+<body>
+    <h2>Book Your Ticket</h2>
+    <form action="TicketBookingForm" method="post">
+        Name: <input type="text" name="name" required><br><br>
+        Email: <input type="email" name="email" required><br><br>
+        Event:
+        <select name="event">
+            <option>Concert</option>
+            <option>Movie</option>
+            <option>Seminar</option>
+        </select><br><br>
+        Number of Tickets: <input type="number" name="tickets" min="1" required><br><br>
+        Time Slot:
+        <select name="time">
+            <option>10:00 AM</option>
+            <option>2:00 PM</option>
+            <option>6:00 PM</option>
+        </select><br><br>
+        <input type="submit" value="Book Ticket">
+    </form>
+</body>
+</html>
